@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar cliente</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='cliente.css') }}">
+</head>
+<body>
+
+<form action="{{ url_for('perfil') }}" method="post">
+
+    <label for="nome_completo"></label>
+    <input class="nome" id="nome_completo" name="nome_completo" required><br><br>
+
+    <label for="genero"></label>
+    <select id="genero" name="genero" required>
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+        <option value="Outro">Outro</option>
+    </select>
+
+    <label for="email"></label>
+    <input class="email" type="email" id="email" name="email" required><br><br>
+
+    <label for="telefone"></label>
+    <input class="telefone" type="tel" id="telefone" name="telefone" required><br><br>
+
+    <label for="endereco"></label>
+    <input class="endereco" type="text" id="endereco" name="endereco" required><br><br>
+
+    <button class="bttn" type="submit">Enviar</button>
+</form>
+
+    <h2>Usuários Cadastrados</h2>
+    <ul>
+        {% for usuario in usuarios %}
+            <li>{{ usuario.nome }} - {{ usuario.email }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

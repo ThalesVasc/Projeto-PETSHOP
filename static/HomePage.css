@@ -1,0 +1,24 @@
+body {
+    background-image: url('/static/images/Home.png');
+    background-size: contain; /* Ajusta a imagem para caber completamente na tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove as margens padrões */
+}
+
+button{
+    position: relative;
+    left: 180px;
+    top: 50px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent; /* Torna o fundo transparente */
+    border: 2px solid #d4b78d;
+    border-radius: 8px;
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar pet</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='pet.css') }}">
+</head>
+<body>
+<form action="{{ url_for('perfil_pet') }}" method="post">
+
+    <label for="nome"></label>
+    <input class="nome" type="text" id="nome" name="nome" placeholder="Apelido do pet" required>
+
+    <label for="especie"></label>
+    <input class="especie" type="text" id="especie" name="especie" placeholder="Gato / Cachorro / Outro" required>
+
+    <label for="raca"></label>
+    <input class="raca" type="text" id="raca" name="raca" placeholder="Raça de seu pet" required>
+
+    <label for="idade"></label>
+    <input class="idade" type="number" id="idade" name="idade" required>
+
+    <label  for="sexo"></label>
+    <input class="sexo" type="text" id="sexo" name="sexo" placeholder="Macho / Fêmea / Hermafrodita" required>
+
+    <label for="cor"></label>
+    <input class="cor" type="text" id="cor" name="cor" required>
+
+    <label for="peso"></label>
+    <input class="peso" type="number" step="0.01" id="peso" name="peso" placeholder="Peso de seu pet em Kg" required>
+
+    <label for="responsavel"></label>
+    <input class="responsavel" type="text" id="responsavel" name="responsavel" placeholder="Dono do pet" required>
+
+    <button class="bttn" type="submit">Enviar</button>
+
+</body>
+</html>

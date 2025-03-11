@@ -1,0 +1,8 @@
+body {
+    background-image: url('/static/images/loja.png');
+    background-size: contain; /* Ajusta a imagem para caber completamente na tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove as margens padrões */
+}

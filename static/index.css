@@ -1,0 +1,100 @@
+body {
+    background-image: url('/static/images/index.png');
+    background-size: contain; /* Ajusta a imagem para caber completamente na tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove as margens padrões */
+}
+
+.bttn {
+  height: 50px;
+  width: 480px;
+  position: relative;
+  bottom: -375px;
+  left: 460px;
+
+  background-color: #FFA500;
+  color: #4682B4;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bttn:hover {
+  background-color:  #FFB84D;
+}
+
+.bttn1 {
+  height: 50px;
+  width: 480px;
+  position: relative;
+  bottom: -410px;
+  left: 460px;
+
+  background-color: #FFA500;
+  color: #4682B4;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bttn1:hover {
+  background-color:  #FFB84D;
+}
+
+.bttn2 {
+  height: 50px;
+  width: 480px;
+  position: relative;
+  bottom: -445px;
+  left: 460px;
+
+  background-color: #FFA500;
+  color: #4682B4;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bttn2:hover {
+  background-color:  #FFB84D;
+}
+
+.bttn3 {
+  height: 50px;
+  width: 480px;
+  position: relative;
+  bottom: -480px;
+  left: 460px;
+
+  background-color: #FFA500;
+  color: #4682B4;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bttn3:hover {
+  background-color:  #FFB84D;
+}

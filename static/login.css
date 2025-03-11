@@ -1,0 +1,54 @@
+body {
+    background-image: url('/static/images/login.png');
+    background-size: contain; /* Ajusta a imagem para caber completamente na tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove as margens padrões */
+}
+.email input{
+height : 30px;
+width : 450px;
+position: relative;
+left: 560px;
+bottom : -230px
+}
+
+.login input{
+height : 30px;
+width : 450px;
+position: relative;
+left: 560px;
+bottom : -325px
+}
+
+/*.btt button{
+position: relative;
+height : 50px;
+width : 180px;
+left: 760px;
+bottom : -430px
+}*/
+
+.btt {
+  height: 50px;
+  width: 470px;
+  position: relative;
+  bottom: -430px;
+  left: 615px;
+
+  background-color: #ADD8E6;
+  color: #4682B4;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btt:hover {
+  background-color:  #FFB84D;
+}

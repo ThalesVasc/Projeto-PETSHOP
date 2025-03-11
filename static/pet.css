@@ -1,0 +1,131 @@
+body {
+    background-image: url('/static/images/pet.png');
+    background-size: contain; /* Ajusta a imagem para caber completamente na tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove as margens padrões */
+}
+
+/* Estilo geral para os inputs */
+input {
+    width: 20%; /* Ocupar toda a largura disponível */
+    padding: 12px 15px; /* Adicionando espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: 2px solid #ddd; /* Borda suave */
+    font-size: 16px; /* Tamanho de fonte confortável */
+    color: #333; /* Cor do texto */
+    background-color: #F1E3A1; /* Cor de fundo suave */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Foco nos campos de input */
+input:focus {
+    border-color: #0056b3; /* Cor da borda quando focado */
+    outline: none; /* Remove a borda padrão de foco */
+    background-color: #ffffff; /* Cor de fundo ao focar */
+}
+
+
+.bttn{
+position: relative;
+    left: 620px;
+    top: 115px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f1e3a1;
+    border: 2px solid #d4b78d;
+    border-radius: 8px;
+    height: 60px;
+    width: 284px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
+}
+
+.bttn:hover {
+    background-color: #f1d080;
+    border-color: #c89a5f;
+}
+
+/* Estilo para rótulos (labels) */
+label {
+    font-size: 14px; /* Tamanho da fonte do label */
+    color: #555; /* Cor do texto do label */
+    display: block; /* Garante que o label ocupe a linha inteira */
+    margin-bottom: 8px; /* Espaçamento abaixo do label */
+}
+
+/* Ajuste de bordas e sombra para um visual moderno */
+input:focus {
+    box-shadow: 0 0 10px rgba(0, 86, 179, 0.3); /* Adiciona sombra ao foco */
+}
+
+.nome{
+position: relative;
+top: 150px;
+left: 580px;
+}
+
+.especie{
+position: relative;
+top: 155px;
+left: 470px;
+width: 23%;
+}
+
+.raca{
+position: relative;
+top: 170px;
+left: 440px;
+width: 25%;
+}
+
+.idade{
+position: relative;
+top: 181px;
+left: 730px;
+width: 5%;
+}
+
+.sexo{
+position: relative;
+top: 193px;
+left: 440px;
+width: 25%;
+}
+
+:placeholder {
+    color: #888;
+    font-style: italic; /* Deixa o texto do placeholder em itálico */
+    transition: color 0.5s ease, transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55), font-size 0.3s ease; /* Usando cubic-bezier para suavizar o movimento harmônico */
+}
+
+:focus::placeholder {
+    color: #007BFF; /* Muda a cor do placeholder quando o campo é focado */
+    transform: translateY(-10px); /* Faz o texto do placeholder subir suavemente */
+    font-size: 14px; /* Diminui um pouco o tamanho do texto para indicar foco */
+    transition-delay: 0.2s; /* Atraso na transição do movimento */
+}
+
+.cor{
+position: relative;
+top: 195px;
+left: 550px;
+width: 17.4%;
+}
+
+.peso{
+position: relative;
+top: 205px;
+left: 440px;
+width: 25%;
+}
+
+.responsavel{
+position: relative;
+top: 209px;
+left: 550px;
+width: 17.4%;
+}
